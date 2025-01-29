@@ -35,5 +35,6 @@ Simply open the `index.html` file in your browser to view the cat photo app. No 
 - HTML
 
 ## Future Improvements
+- Adding CSS (for basic styling)
 - Adding a "Like" button for users to favorite cat photos.
 - Implementing JavaScript to load new random images on button click.
