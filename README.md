@@ -41,4 +41,4 @@ Simply open the `index.html` file in your browser to view the cat photo app. No 
 - Implementing JavaScript to load new random images on button click.
 
 ## Live Demo
-You can view the live version of this project [here](https://jesterreyperez.github.io/cat-photo-app/).
+You can view the live version of this project <a href="https://jesterreyperez.github.io/cat-photo-app/" target="_blank" rel="noreferrer noopener">here</a>.
