@@ -9,6 +9,7 @@ This project is part of my journey through FreeCodeCamp's HTML and HTML5 course.
 4. [Features](#features)
 5. [Technologies Used](#technologies-used)
 6. [Future Improvements](#future-improvements)
+7. [Live Demo](#live-demo)
 
 ## Project Overview
 In this project, I learned how to use various HTML tags to add structure and elements to a webpage, such as:
@@ -38,3 +39,6 @@ Simply open the `index.html` file in your browser to view the cat photo app. No 
 - Adding CSS (for basic styling)
 - Adding a "Like" button for users to favorite cat photos.
 - Implementing JavaScript to load new random images on button click.
+
+## Live Demo
+You can view the live version of this project [here](https://jesterreyperez.github.io/cat-photo-app/).
