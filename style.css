@@ -9,6 +9,9 @@ body {
 
 h1 {
   text-align: center;
+  color: #5b4636;
+  font-size: 2.5rem;
+  margin-bottom: 24px;
 }
 
 img {
