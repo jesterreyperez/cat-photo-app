@@ -3,6 +3,7 @@
 This project is part of my journey through FreeCodeCamp's HTML and HTML5 course. In this project, I created a simple cat photo app that demonstrates the basic structure of a webpage using HTML tags.
 
 ## Table of Contents
+
 1. [Project Overview](#project-overview)
 2. [Learning Objectives / Skills Gained](#learning-objectives-skills-gained)
 3. [How to Use](#how-to-use)
@@ -12,6 +13,7 @@ This project is part of my journey through FreeCodeCamp's HTML and HTML5 course.
 7. [Live Demo](#live-demo)
 
 ## Project Overview
+
 In this project, I learned how to use various HTML tags to add structure and elements to a webpage, such as:
 
 - Images (to display cat photos)
@@ -21,24 +23,36 @@ In this project, I learned how to use various HTML tags to add structure and ele
 By building this app, I became familiar with the most common HTML tags and how they help define a webpage's structure.
 
 ## Learning Objectives / Skills Gained
+
 In this project, I learned:
+
 - How to structure a webpage using HTML tags.
 - How to embed images, add links, and create buttons.
 
 ## How to Use
+
 Simply open the `index.html` file in your browser to view the cat photo app. No further setup is required.
 
 ## Features
-- Displays random cat photos.
-- Responsive design for desktop and mobile.
+
+- Displays cat photos and information about cats.
+- Includes a cat photo submission form.
+- Interactive "Say Meow!" button powered by JavaScript.
+- Basic CSS styling for the background, typography, images, and button.
+- Responsive images that scale to fit their containers.
 
 ## Technologies Used
+
 - HTML
+- CSS
+- JavaScript
 
 ## Future Improvements
+
 - Adding CSS (for basic styling)
 - Adding a "Like" button for users to favorite cat photos.
 - Implementing JavaScript to load new random images on button click.
 
 ## Live Demo
+
 You can view the live version of this project <a href="https://jesterreyperez.github.io/cat-photo-app/" target="_blank" rel="noreferrer noopener">here</a>.
