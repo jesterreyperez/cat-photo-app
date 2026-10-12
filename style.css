@@ -19,15 +19,17 @@ img {
   height: auto;
 }
 
-#catButton {
+button {
   background-color: #4caf50;
   color: white;
   padding: 10px 16px;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
 }
 
-#catButton:hover {
-  background-color: #45a049;
+button:hover {
+  background-color: #388e3c;
 }
