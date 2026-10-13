@@ -63,8 +63,8 @@ No additional dependencies or build tools are required.
 
 ## Screenshots
 
-<img src="screenshots/cat-photo-app-1.png" alt="Cat Photo App screenshot 1">
-<img src="screenshots/cat-photo-app-2.png" alt="Cat Photo App screenshot 2">
+<img src="screenshots/cat-phot-app-1.png" alt="Cat Photo App screenshot 1">
+<img src="screenshots/cat-phot-app-2.png" alt="Cat Photo App screenshot 2">
 
 ## Technologies Used
 
