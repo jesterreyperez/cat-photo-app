@@ -1,6 +1,8 @@
 # Cat Photo App
 
-This project is part of my journey through FreeCodeCamp's HTML and HTML5 course. In this project, I created a simple cat photo app that demonstrates the basic structure of a webpage using HTML tags.
+This project is part of my journey through FreeCodeCamp's HTML and HTML5 course. In this project, I created a simple cat photo app that demonstrates the basic structure of a webpage using HTML tags and expanded it with custom CSS styling, interactive JavaScript features, and responsive design.
+
+The project helped me practice building webpage structures, styling elements, handling user interactions, and adapting a layout to different screen sizes.
 
 ## Table of Contents
 
@@ -8,9 +10,10 @@ This project is part of my journey through FreeCodeCamp's HTML and HTML5 course.
 2. [Learning Objectives / Skills Gained](#learning-objectives-skills-gained)
 3. [How to Use](#how-to-use)
 4. [Features](#features)
-5. [Technologies Used](#technologies-used)
-6. [Future Improvements](#future-improvements)
-7. [Live Demo](#live-demo)
+5. [Screenshots](#screenshots)
+6. [Technologies Used](#technologies-used)
+7. [Future Improvements](#future-improvements)
+8. [Live Demo](#live-demo)
 
 ## Project Overview
 
@@ -24,22 +27,41 @@ By building this app, I became familiar with the most common HTML tags and how t
 
 ## Learning Objectives / Skills Gained
 
-In this project, I learned:
+In this project, I practiced:
 
-- How to structure a webpage using HTML tags.
-- How to embed images, add links, and create buttons.
+- HTML: Structuring webpage content using headings, paragraphs, links, images, buttons, and form elements.
+- CSS: Styling page elements with colors, typography, spacing, rounded corners, and box shadows.
+- Responsive Design: Using CSS media queries to adjust spacing, heading sizes, and button padding on smaller screens.
+- Flexbox: Centering related buttons and allowing them to wrap when space is limited.
+- JavaScript DOM Manipulation: Selecting HTML elements and updating text content and image sources.
+- Event Handling: Using event listeners to respond to button clicks.
+- Debugging and Testing: Checking the app at different viewport widths and verifying that interactive features continue to work.
+- Git and GitHub: Tracking changes with Git commits and pushing updates to GitHub.
 
 ## How to Use
 
-Simply open the `index.html` file in your browser to view the cat photo app. No further setup is required.
+1. Clone or download this repository.
+
+2. Make sure index.html, style.css, and script.js are in the project folder.
+
+3. Open index.html in your web browser.
+
+4. Click the buttons to try the interactive features.
+
+No additional dependencies or build tools are required.
 
 ## Features
 
-- Displays cat photos and information about cats.
-- Includes a cat photo submission form.
-- Interactive "Say Meow!" button powered by JavaScript.
-- Basic CSS styling for the background, typography, images, and button.
-- Responsive images that scale to fit their containers.
+- Displays cat photos and links to cat-related pages.
+- Includes a cat photo submission form from the original project..
+- Interactive "Say Meow!" button that displays a message when clicked.
+- Like button that changes its label to "Liked ❤️" when clicked.
+- "Show Another Cat" button that switches between two cat photos.
+- Custom CSS styling for colors, typography, buttons, rounded image corners, and shadows.
+- Responsive design adjustments for smaller screens using CSS media queries.
+- Flexbox layout that centers the photo-related buttons and allows them to wrap when needed.
+
+## Screenshots
 
 ## Technologies Used
 
@@ -49,9 +71,10 @@ Simply open the `index.html` file in your browser to view the cat photo app. No 
 
 ## Future Improvements
 
-- Adding CSS (for basic styling)
-- Adding a "Like" button for users to favorite cat photos.
-- Implementing JavaScript to load new random images on button click.
+- Add more cat photos and expand the photo gallery.
+- Improve the layout and accessibility of interactive elements.
+- Add a feature to randomly select a cat photo from a collection.
+- Improve the visual design of the cat photo submission form.
 
 ## Live Demo
 
