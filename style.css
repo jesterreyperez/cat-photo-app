@@ -16,8 +16,9 @@ h1 {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  max-width: 100%; /* Responsive Default */
+  width: 100%;
+  height: auto; /* Responsive Default */
   display: block;
   margin: 20px auto;
   border-radius: 12px;
@@ -38,4 +39,25 @@ button {
 
 button:hover {
   background-color: #388e3c;
+}
+
+/* For small screens */
+@media (max-width: 480px) {
+  body {
+    padding: 12px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  button {
+    padding: 12px 14px;
+  }
+}
+
+/* Photo button layout */
+.photo-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
 }
