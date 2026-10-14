@@ -16,11 +16,16 @@ likeButton.addEventListener("click", () => {
   likeButton.textContent = "Liked ❤️";
 });
 
-newCatButton.addEventListener("click", () => {
-  if (catImage.src === anotherCatPhoto) {
-    catImage.src =
-      "https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg";
-  } else {
-    catImage.src = anotherCatPhoto;
+newCatButton.addEventListener("click", async () => {
+  try {
+    const response = await fetch("https://api.thecatapi.com/v1/images/search");
+
+    if (!response.ok) {
+      throw new Error("Failed to fetch a new cat image");
+    }
+    const data = await response.json();
+    catImage.src = data[0].url;
+  } catch (error) {
+    console.error("Error fetching cat image:", error);
   }
 });
