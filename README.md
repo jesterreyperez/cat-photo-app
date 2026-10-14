@@ -37,6 +37,9 @@ In this project, I practiced:
 - Event Handling: Using event listeners to respond to button clicks.
 - Debugging and Testing: Checking the app at different viewport widths and verifying that interactive features continue to work.
 - Git and GitHub: Tracking changes with Git commits and pushing updates to GitHub.
+- Asynchronous JavaScript: Using async and await to handle asynchronous operations when fetching cat photos from an API.
+- Fetch API: Requesting cat photo data from TheCatAPI and reading the JSON response.
+- Error Handling: Using try/catch and checking response.ok to handle network errors and unsuccessful HTTP responses.
 
 ## How to Use
 
@@ -60,6 +63,8 @@ No additional dependencies or build tools are required.
 - Custom CSS styling for colors, typography, buttons, rounded image corners, and shadows.
 - Responsive design adjustments for smaller screens using CSS media queries.
 - Flexbox layout that centers the photo-related buttons and allows them to wrap when needed.
+- Dynamic Cat Photos: Fetches a new cat photo from TheCatAPI when the user clicks the "Show Another Cat" button.
+- API Error Handling: Checks for unsuccessful HTTP responses and catches errors during the request.
 
 ## Screenshots
 
@@ -74,10 +79,11 @@ No additional dependencies or build tools are required.
 
 ## Future Improvements
 
-- Add more cat photos and expand the photo gallery.
+- Display a loading message while a new cat photo is being fetched.
+- Show a user-friendly error message if fetching a photo fails.
 - Improve the layout and accessibility of interactive elements.
-- Add a feature to randomly select a cat photo from a collection.
-- Improve the visual design of the cat photo submission form.
+- Add more styling and improve the visual design of the cat photo submission form.
+- Explore additional JavaScript features as I continue learning.
 
 ## Live Demo
 
